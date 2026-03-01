@@ -1,0 +1,15 @@
+# EchoSense NodeMCU - Required Arduino Libraries
+# Install these via Arduino IDE > Tools > Manage Libraries
+
+ESP8266WiFi          # Built-in with ESP8266 board package
+ESP8266WebServer     # Built-in with ESP8266 board package
+WebSocketsServer     # Search: "WebSockets" by Markus Sattler       (v2.4.0+)
+ArduinoJson          # Search: "ArduinoJson" by Benoit Blanchon      (v6.x)
+
+# Board Setup in Arduino IDE:
+# 1. File > Preferences > Additional Boards Manager URLs:
+#    https://arduino.esp8266.com/stable/package_esp8266com_index.json
+# 2. Tools > Board > Boards Manager > search "esp8266" > install
+# 3. Tools > Board > ESP8266 Boards > NodeMCU 1.0 (ESP-12E Module)
+# 4. Tools > Port > select your COM port
+# 5. Upload Speed: 115200
